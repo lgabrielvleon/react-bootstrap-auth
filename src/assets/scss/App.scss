@@ -1,0 +1,50 @@
+body {
+    background-color: yellow !important;
+}
+
+.auth {
+    $self: &;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 0%;
+    background-color: white;
+    transition: .5s all ease;
+    overflow-y: hidden;
+    &-active {
+        height: 100%;
+        transition: .5s all ease;
+    }
+}
+
+.cont-logo {
+    height: 41px;
+    >img {
+        height: 100%;
+    }
+    >p {
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+        font-family: 'Roboto';
+        text-transform: uppercase;
+        letter-spacing: -0.333333px;
+        color: #4B515E;
+    }
+}
+
+.action-auth {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    border-bottom: 2px solid transparent;
+    transition: .3s all ease-in;
+    border-bottom: .2rem solid transparent;
+    &:hover {
+        text-decoration: none;
+    }
+    &-active {
+        border-bottom: .2rem solid #FC676B;
+        transition: .3s all ease-in;
+    }
+}

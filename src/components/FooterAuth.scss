@@ -1,0 +1,24 @@
+.footer-auth {
+    &-message {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: -0.333333px;
+        color: rgba(75, 81, 94, 0.67);
+    }
+    &-terminos-condiciones {
+        font-family: 'Red Hat Display';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: -0.333333px;
+        color: rgba(75, 81, 94, 0.67);
+        >span {
+            font-weight: 500;
+            color: #FC676B;
+        }
+    }
+}
